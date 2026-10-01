@@ -143,25 +143,33 @@ li{margin:9px 0;line-height:1.38}
 <body class="" style="">
 <div class="wrap">
   <!-- As imagens reais serão inseridas posteriormente nos espaços reservados de cada fase. -->
-  <header class="hero">
+<header class="hero" style="position: relative; overflow: hidden;">
   <div class="curve-art" aria-hidden="true"></div>
-  <img src="data:image/png;base64,iVBORw0KGgoAAA..." />
   
-  <h1>GUIA DE <img src="data:image/png;base64,iVBORw0K..." /></h1>
-  <p>Seu primeiro semestre acaba de começar. Pegue o controle, descubra o mapa e bora jogar -</p>
+  <!-- Logo Principal da Uniporá -->
+  <img src="logotipo branco.png" alt="Uniporá - Guia do Aluno" style="max-width: 200px; height: auto; margin-bottom: 20px;" />
   
-  <!-- Estilo adicionado aqui na div para alinhar e quebrar a linha automaticamente -->
-  <div class="controls" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <!-- Imagem de Fundo (Marca d'água no canto direito) -->
+  <img src="logo-fundo.png" alt="logo-fundo.png" style="position: absolute; right: -80px; top: -60px; width: 380px; height: auto; opacity: 0.35; pointer-events: none;" />
+  
+  <!-- Título Completo Restaurado -->
+  <h1>GUIA DE<br>SOBREVIVÊNCIA<br>DO ALUNO</h1>
+  
+  <!-- Subtítulo Completo Restaurado -->
+  <p>Seu primeiro semestre acaba de começar. Pegue o controle, descubra o mapa e bora jogar — sem transformar cada dúvida em um chefão.</p>
+  
+  <!-- Div que organiza os botões e joga para baixo automaticamente se faltar espaço -->
+  <div class="controls" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-start; margin-top: 25px;">
     
-    <a href="#level-01">▶ Começar</a>
-    <a href="#level-02">Mapa da Mina</a>
-    <a href="#level-03">Regras de Ouro</a>
-    <a href="#level-04">Apoio ao Aluno</a>
-    <a href="#level-05">Multiplayer</a>
+    <a href="#level-01" class="meu-botao-estilo">▶ Começar</a>
+    <a href="#level-02" class="meu-botao-estilo">Mapa da Mina</a>
+    <a href="#level-03" class="meu-botao-estilo">Regras de Ouro</a>
+    <a href="#level-04" class="meu-botao-estilo">Central de Ajuda</a>
+    <a href="#level-05" class="meu-botao-estilo">Multiplayer</a>
     
-    <!-- EXEMPLOS DE NOVOS BOTÕES (Eles vão para baixo sozinhos se não couberem) -->
-    <a href="#level-06">Novo Botão 1</a>
-    <a href="#level-07">Novo Botão 2</a>
+    <!-- Seus novos botões adicionados aqui -->
+    <a href="#level-06" class="meu-botao-estilo">Novo Botão 1</a>
+    <a href="#level-07" class="meu-botao-estilo">Novo Botão 2</a>
     
     <a href="manual-do-aluno-unipora.pdf" target="_blank" class="meu-botao-estilo">Imprimir / PDF</a>
     
